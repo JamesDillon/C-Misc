@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <math.h>
 
-#define PI 3.141592
+#define M_PI 3.1415926538979323846
 
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
     for (i = 0; i < 20; i++)
     {
-        j = 18 + (int)(18 * sin(PI * i / 5)); //alter 5 to change freq.
+        j = 18 + (int)(18 * sin(M_PI * i / 5)); //alter 5 to change freq.
 
         if (j)
         {
