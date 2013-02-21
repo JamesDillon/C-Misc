@@ -22,7 +22,7 @@ void bubble_sort(int numbers[], int elements)
 {
 	int k;
 
-	for (elements; elements > 0; elements--) { 
+	for (elements; elements > 0; elements--) {
 		for (k = 1; k <= elements; k++) {
 			if (numbers[k - 1] > numbers[k]) {
 				//A XOR swap, to avoid a temp variable.
