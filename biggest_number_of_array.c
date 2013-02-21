@@ -17,7 +17,7 @@ int sort(int arr[], int size)
 
    for (j = 1; j < size; j++)
    {
-      if (arr[j] > arr[largestIndex])
+      if (arr[largestIndex] < arr[j])
       {
          largestIndex = j;
       }

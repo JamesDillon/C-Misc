@@ -7,6 +7,8 @@
 #include <stdio.h>
 #include <math.h>
 
+#define PI 3.141592
+
 int main(int argc, char *argv[])
 {
     int i;
@@ -14,14 +16,16 @@ int main(int argc, char *argv[])
 
     for (i = 0; i < 20; i++)
     {
-        j = 18 + (int)(18 * sin(M_PI * i / 5)); //alter 5 to change freq.
+        j = 18 + (int)(18 * sin(PI * i / 5)); //alter 5 to change freq.
 
-        if (j) {
+        if (j)
+        {
             printf("%*c@\n", j, ' ');
-        } else {
+        }
+        else
+        {
             printf("@");
         }
-            
     }
 
     return 0;
