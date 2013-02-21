@@ -22,9 +22,9 @@ int main(int argc, char *argv[])
 
 void bubble_sort(int numbers[], int elements)
 { 
-   int k;
+   int k, i;
 
-   for (elements; elements > 0; elements--)
+   for ( i = elements; i > 0; i--)
    {
       for (k = 1; k <= elements; k++)
       {
