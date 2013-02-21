@@ -23,5 +23,5 @@ int sort(int arr[], int size)
       }
    }
 
-   return largestIndex;
+   return arr[largestIndex];
 }
